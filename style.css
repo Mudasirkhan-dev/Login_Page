@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Dosis', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+}
+
+h1 { 
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.login-area {
+    background: rgba(255, 255, 255, 0.901);
+    width: 20%;
+    text-align: center;
+    margin-top: 30px ;
+    margin-left: 50px;
+    padding: 50px ;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(36, 36, 36, 0.249);
+    
+    
+}
+
+.input-icons {
+    width: 20px;
+}
+
+
+
+.user-inputs{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: left;
+}
+
+.user-inputs .input-1 div , 
+.user-inputs .input-2 div
+{
+    
+    margin: 5px;
+}
+
+.input-holders{
+    display: flex;
+    align-items: center;
+}
+
+.input-holders input {
+ 
+    width:100%;
+    font-size: 1rem;
+    color: #666;
+    text-transform: none;
+    margin: 0.2rem 10px;
+    padding: 0.4rem 0.2rem;
+    background-color: rgba(0 , 0 , 0 , 0);
+    border-style: none;
+
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: rgba(102, 102, 102, 0.2);
+    border-radius: 1px;
+    padding-top: 1px;
+}
+
+
+
+.login-area a{
+   font-size: 0.9rem;
+   font-weight: bold;   
+   text-decoration: none;
+   color: #02002D;
+}
+
+
+.social-links{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.social-links div{
+    margin-top: 10px;
+}
+
+.social-logos {
+    width: 30px;
+    margin: 10px 5px;
+    transition: 0.1s;
+}
+
+.social-logos:hover{
+    margin-bottom: 2px;
+}
+
+
+.login-Btn button{ 
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 60px;
+    color: white;
+    background-color: #02002D;
+    border : 1px solid #02002d7f;
+    
+}
+
+.login-Btn button:hover{
+    background-color: #efefef;
+    border : 1px solid #02002D ;
+    color: #02002D;
+    transition: 0.2s;
+}
+
+.sign-up{
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.sign-up :hover{ 
+    text-decoration: underline;
+}
+
